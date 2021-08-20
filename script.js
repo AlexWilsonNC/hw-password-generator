@@ -9,7 +9,7 @@ function generatePassword() {
   
   var choice = prompt("How many characters long would you like your password to be? (8-128 characters permited)");
   if (!choice) return;
-  if (choice < 8 || choice > 128 || isNaN(choice) /*|| parseInt(choice)*/) {
+  if (choice < 8 || choice > 128 || isNaN(choice)) {
     alert("Please enter a numeric value between 8 and 128 characters long.");
     return generatePassword();
   }
