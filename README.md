@@ -1,5 +1,4 @@
 # hw-password-generator
-03 JavaScript: Password Generator HW due Aug 20, 2021.
 
 [Link to deployed site](https://alexwilsonnc.github.io/hw-password-generator/)
 
@@ -17,4 +16,4 @@
 - Alert if no character type is selected, message is displayed and the original prompt reappears from step 1
 - Additional button clicks re-generates a new password, no page refresh needed
 
-![screeshot](screenshotpassword.png)
+![screeshot](assets/screenshotpassword.png)
